@@ -24,7 +24,7 @@
       <div class="content-block">
         <div class="hero-block__textable-area">
           <h1>Теплиця</h1>
-          <p>
+          <p class="hero-block__description">
             Наш досвід організації пунктів Незламності
           </p>
         </div>
@@ -333,6 +333,7 @@
   --default-block-padding: 30px;
   --default-content-padding: 30px;
   --default-block-margin-top: 40px;
+  --default-block-description-line-height: 24px;
 }
 
 * {
@@ -399,8 +400,10 @@ body {
   font-size: 48px;
 }
 
-.hero-block__textable-area p {
+.hero-block__description {
   margin-top: 30px;
+  max-width: 600px;
+  line-height: var(--default-block-description-line-height);
 }
 
 .hero-block__image-area {
@@ -438,7 +441,7 @@ body {
 
 .what-is-teplytsya-block__description {
   max-width: 700px;
-  line-height: 20px;
+  line-height: var(--default-block-description-line-height);
 }
 
 .what-is-teplytsya-block__list-name {
