@@ -74,6 +74,51 @@
         </div>
       </div>
     </div>
+    <div class="partners-block block-wrapper">
+      <div class="content-block-heading">
+        <h2>Партнери</h2>
+      </div>
+      <div class="content-block">
+        <div class="partners__list">
+          <a href="https://foundation.kse.ua" target="_blank" rel="noreferrer" class="partners__item">
+            <img src="./images/partners/KSE_Foundation_logo.svg">
+          </a>
+          <a href="https://www.thehumanityfunds.com" target="_blank" rel="noreferrer" class="partners__item thehumanityfunds-item">
+            <img src="./images/partners/thehumanityfunds_logo.webp">
+          </a>
+          <a href="https://volunteer.country" target="_blank" rel="noreferrer" class="partners__item volunteer_country-item">
+            <img src="./images/partners/volunteer_country_logo.png">
+          </a>
+          <a href="https://spivdiia.org.ua" target="_blank" rel="noreferrer" class="partners__item spivdiia-item">
+            <img src="./images/partners/spivdiia_logo.svg">
+          </a>
+          <a href="https://www.coreresponse.org" target="_blank" rel="noreferrer" class="partners__item coreresponse-item">
+            <img src="./images/partners/coreresponse_logo.svg">
+          </a>
+          <a href="https://epicentrk.ua" target="_blank" rel="noreferrer" class="partners__item">
+            <img src="./images/partners/epicentrk_logo.svg">
+          </a>
+          <a href="https://www.msp.gov.ua" target="_blank" rel="noreferrer" class="partners__item">
+            <img src="./images/partners/msp_logo.png">
+          </a>
+          <a href="https://solom.kyivcity.gov.ua" target="_blank" rel="noreferrer" class="partners__item">
+            <img src="./images/partners/solom_rda_logo.png">
+          </a>
+          <a href="https://shev.kyivcity.gov.ua" target="_blank" rel="noreferrer" class="partners__item">
+            <img src="./images/partners/shev_rda_logo.png">
+          </a>
+          <a href="https://sr.kpi.ua" target="_blank" rel="noreferrer" class="partners__item">
+            <img src="./images/partners/studrada_logo.jpg">
+          </a>
+          <a href="https://www.instagram.com/teatr.na.solo" target="_blank" rel="noreferrer" class="partners__item">
+            <img src="./images/partners/teatr_na_solo_logo.jpg">
+          </a>
+          <a href="https://solom-osvita.gov.ua" target="_blank" rel="noreferrer" class="partners__item">
+            <img src="./images/partners/solom-osvita_logo.png">
+          </a>
+        </div>
+      </div>
+    </div>
     <div class="about-us-block block-wrapper">
       <div class="content-block-heading">
         <h2>Про нас</h2>
@@ -193,6 +238,49 @@ body {
 
 .what-is-teplytsya-block__item img {
   width: 25px;
+}
+
+.partners-block {
+  margin-top: 40px;
+}
+
+.partners__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  gap: 30px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.partners__item {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 80px;
+}
+
+.partners__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.thehumanityfunds-item img {
+  width: 70%;
+}
+
+.volunteer_country-item {
+  background-color: rgb(17, 17, 17);
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.spivdiia-item img {
+  width: 60%
+}
+
+.coreresponse-item img {
+  width: 65%;
 }
 
 .about-us-block {
