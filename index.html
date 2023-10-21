@@ -28,9 +28,9 @@
               Наш досвід організації пунктів Незламності
             </p>
           </div>
-          <div class="hero-block__image-area">
+          <!-- <div class="hero-block__image-area">
             <img src="./images/teplytsya-hero.png">
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="introduction-block block-wrapper">
@@ -513,19 +513,32 @@ body {
 }
 
 .hero-block .content-block {
+  height: 400px;
   display: flex;
-  justify-content: space-between;
-  padding-top: 50px;
+  background-image: url(./images/hero-bg.png);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.hero-block__textable-area {
+  align-self: flex-end;
 }
 
 .hero-block__textable-area h1 {
-  font-size: 48px;
+  font-size: 78px;
+  color: var(--main-white-color);
+}
+
+@media screen and (max-width: 480px) {
+  .hero-block__textable-area h1 {
+    font-size: 48px;
+  }
 }
 
 .hero-block__description {
-  margin-top: 30px;
-  max-width: 600px;
-  line-height: var(--default-block-description-line-height);
+  color: var(--main-white-color);
+  margin-top: 10px;
 }
 
 .hero-block__image-area {
