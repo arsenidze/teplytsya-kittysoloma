@@ -21,18 +21,34 @@
     </header>
     <main class="main">
       <div class="hero-block block-wrapper">
-      <div class="content-block">
-        <div class="hero-block__textable-area">
-          <h1>Теплиця</h1>
-          <p class="hero-block__description">
-            Наш досвід організації пунктів Незламності
-          </p>
-        </div>
-        <div class="hero-block__image-area">
-          <img src="./images/teplytsya-hero.png">
+        <div class="content-block">
+          <div class="hero-block__textable-area">
+            <h1>Теплиця</h1>
+            <p class="hero-block__description">
+              Наш досвід організації пунктів Незламності
+            </p>
+          </div>
+          <div class="hero-block__image-area">
+            <img src="./images/teplytsya-hero.png">
+          </div>
         </div>
       </div>
-    </div>
+      <div class="introduction-block block-wrapper">
+        <div class="content-block-heading">
+          <h2>Вступ</h2>
+        </div>
+        <div class="content-block">
+          <p class="introduction-block__description">
+            З жовтня минулого року росія вдалася до тероризму проти цивільних, атакуючи критичну інфраструктуру. 
+            Упродовж опалювального сезону росіяни випустили понад 1200 ракет і дронів по ключових енергетичних об’єктах. 
+            Почався блекаут. 
+            Громадяни жили без світла, води, можливості приготувати поїсти, прочитати новини та переписуватись з близькими і рідними.
+            <br />
+            <br />
+            25 листопада ми одні з перших створили реально працюючий Пункт Незламності — Теплицю.
+            </p>
+        </div>
+      </div>
       <div class="what-is-teplytsya-block block-wrapper">
         <div class="content-block-heading">
           <h2>Що таке Теплиця?</h2>
@@ -437,6 +453,10 @@ body {
 .hero-block__image-area img {
   width: 100%;
   height: 100%;
+}
+
+.introduction-block__description {
+  line-height: var(--default-block-description-line-height);
 }
 
 .what-is-teplytsya-block__description {
