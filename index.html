@@ -6,13 +6,17 @@
     <title>Теплиця від Солом’янських котиків</title>
 
     <link
-      href="https://fonts.cdnfonts.com/css/qanelas?styles=47990"
+      href="https://fonts.cdnfonts.com/css/qanelas?styles=47988,47986,47990"
       rel="stylesheet"
     />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
+
+    <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
+    <link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
+
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/collapsible.css" rel="stylesheet" />
   </head>
@@ -39,7 +43,7 @@
           <h2>Вступ</h2>
         </div>
         <div class="content-block">
-          <p class="introduction-block__description">
+          <p class="introduction-block__description default-content-text">
             З жовтня минулого року росія вдалася до тероризму проти цивільних, атакуючи критичну інфраструктуру. 
             Упродовж опалювального сезону росіяни випустили понад 1200 ракет і дронів по ключових енергетичних об’єктах. 
             Почався блекаут. 
@@ -55,45 +59,45 @@
           <h2>Що таке Теплиця?</h2>
         </div>
         <div class="content-block">
-          <p class="what-is-teplytsya-block__description">
+          <p class="what-is-teplytsya-block__description default-content-text">
             Це Пункт Незламності здорової людини. Мало просто знести в одне
             приміщення генератор і старлінк — треба створити атмосферу та робити
             як для себе. За час існування, разом з партнерами ми відкрили 8
             Теплиць.
           </p>
-          <p class="what-is-teplytsya-block__list-name">
+          <p class="what-is-teplytsya-block__list-name default-content-text">
             В цих пунктах завжди є:
           </p>
           <div class="what-is-teplytsya-block__list">
-            <div class="what-is-teplytsya-block__item">
+            <div class="what-is-teplytsya-block__item default-content-text">
               <img src="./images/what-is-teplytsya/teplo.png" />
               <span>тепло</span>
             </div>
-            <div class="what-is-teplytsya-block__item">
+            <div class="what-is-teplytsya-block__item default-content-text">
               <img src="./images/what-is-teplytsya/voda.png" />
               <span>воду</span>
             </div>
-            <div class="what-is-teplytsya-block__item">
+            <div class="what-is-teplytsya-block__item default-content-text">
               <img src="./images/what-is-teplytsya/osvitlenya.png" />
               <span>освітлення</span>
             </div>
-            <div class="what-is-teplytsya-block__item">
+            <div class="what-is-teplytsya-block__item default-content-text">
               <img src="./images/what-is-teplytsya/jivlenya.png" />
               <span>живлення для гаджетів</span>
             </div>
-            <div class="what-is-teplytsya-block__item">
+            <div class="what-is-teplytsya-block__item default-content-text">
               <img src="./images/what-is-teplytsya/internet.png" />
               <span>інтернет</span>
             </div>
-            <div class="what-is-teplytsya-block__item">
+            <div class="what-is-teplytsya-block__item default-content-text">
               <img src="./images/what-is-teplytsya/chai.png" />
               <span>гарячий чай</span>
             </div>
-            <div class="what-is-teplytsya-block__item">
+            <div class="what-is-teplytsya-block__item default-content-text">
               <img src="./images/what-is-teplytsya/aptechka.png" />
               <span>аптечку</span>
             </div>
-            <div class="what-is-teplytsya-block__item">
+            <div class="what-is-teplytsya-block__item default-content-text">
               <img src="./images/what-is-teplytsya/obiymi.png" />
               <span>обійми котиків</span>
             </div>
@@ -105,7 +109,7 @@
           <h2>Статистика</h2>
         </div>
         <div class="content-block">
-          <p class="statistics-block__description">
+          <p class="statistics-block__description default-content-text">
             За 5 місяців роботи проєкту:
           </p>
           <div class="statistics-block__list">
@@ -346,11 +350,76 @@
           </div>
         </div>
       </div>
-      <div id="nashi-teplytsi" class="our-teplytsyas-block block-wrapper">
+      <div id="nashi-teplytsi" class="nashi-teplytsi-block block-wrapper">
         <div class="content-block-heading">
           <h2>Наші теплиці</h2>
         </div>
         <div class="content-block">
+          <div class="nashi-teplytsi-block__slider">
+            <div class="splide">
+              <div class="splide__arrows">
+                <button class="splide__arrow splide__arrow--prev">
+                  Prev
+                </button>
+                <button class="splide__arrow splide__arrow--next">
+                  Next
+                </button>
+              </div>
+
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="splide__slide__container">
+                      <div class="slide-textable-area">
+                        <h3 class="slide-heading">Школа №229</h3>
+                        <div class="slide-textable-area__address">
+                          <img src="./images/map.png" alt="">
+                          <span>
+                            Київ, Соломʼянський район, вулиця Олекси Тихого, 57
+                          </span>
+                        </div>
+                      </div>
+                      <div class="slide-image">
+                        <img src="./images/nashi-teplytsi/2K6A7230.jpg">
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="splide__slide__container">
+                      <div class="slide-textable-area">
+                        <h3 class="slide-heading">Школа №82</h3>
+                        <div class="slide-textable-area__address">
+                          <img src="./images/map.png" alt="">
+                          <span>
+                            Київ, Шевченківський район, вулиця Миколи Шпака, 4
+                          </span>
+                        </div>
+                      </div>
+                      <div class="slide-image">
+                        <img src="./images/nashi-teplytsi/2K6A7237.jpg">
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="splide__slide__container">
+                      <div class="slide-textable-area">
+                        <h3 class="slide-heading">Ліцей №142</h3>
+                        <div class="slide-textable-area__address">
+                          <img src="./images/map.png" alt="">
+                          <span>
+                            Київ, Соломʼянський район, провулок Політехнічний 2А
+                          </span>
+                        </div>
+                      </div>
+                      <div class="slide-image">
+                        <img src="./images/nashi-teplytsi/2K6A7252.jpg">
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div id="partners" class="partners-block block-wrapper">
@@ -527,6 +596,7 @@
     </footer>
   </body>
   <script src="./js/collapsible.js"></script>
+  <script src="./js/splideInit.js"></script>
 </html>
 
 <style>
@@ -535,8 +605,8 @@
   --main-white-color: #ffffff;
   --main-black-color: #000000;
   --max-width-px: 1280px;
-  --default-block-padding: 30px;
-  --default-content-padding: 30px;
+  --default-block-padding: 48px;
+  --default-content-padding: 48px;
   --default-block-margin-top: 40px;
   --default-block-description-line-height: 24px;
 }
@@ -544,6 +614,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Qanelas', sans-serif;
+  font-weight: 500;
 }
 
 a,
@@ -562,6 +633,11 @@ body {
 
 body {
   background-color: var(--main-bg-color);
+}
+
+.default-content-text {
+  font-size: 24px;
+  line-height: 34px;
 }
 
 .header {
@@ -584,7 +660,8 @@ body {
 }
 
 .content-block-heading {
-  font-size: 28px;
+  font-size: 48px;
+  line-height: 58px;
   padding: 0 0 calc(var(--default-content-padding) / 2)
     var(--default-content-padding);
 }
@@ -658,12 +735,14 @@ body {
 }
 
 .introduction-block__description {
-  line-height: var(--default-block-description-line-height);
+  font-size: 24px;
+  line-height: 34px;
 }
 
 .what-is-teplytsya-block__description {
   max-width: 700px;
-  line-height: var(--default-block-description-line-height);
+  font-size: 24px;
+  line-height: 34px;
 }
 
 .what-is-teplytsya-block__list-name {
@@ -675,7 +754,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 100px;
+  column-gap: 80px;
   row-gap: 40px;
 }
 
@@ -693,16 +772,12 @@ body {
   object-fit: contain;
 }
 
-.statistics-block__description {
-  font-size: 18px;
-}
-
 .statistics-block__list {
   margin-top: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 100px;
+  column-gap: 80px;
   row-gap: 40px;
 }
 
@@ -716,6 +791,10 @@ body {
 
 .statistics-block__item img {
   width: 50px;
+}
+
+.statistics-block__item span {
+  font-size: 20px;
 }
 
 .how-to-organize-teplytsya-block__content {
@@ -789,6 +868,55 @@ body {
 .how-to-organize-teplytsya-block .content-block p {
   margin-top: 20px;
 } */
+
+/* .nashi-teplytsi-block .content-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
+
+.nashi-teplytsi-block__slider .splide__slide__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nashi-teplytsi-block__slider .slide-heading {
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.nashi-teplytsi-block__slider .slide-textable-area__address {
+  margin-top: 32px;
+  width: 250px;
+  display: flex;
+  gap: 20px
+}
+
+.nashi-teplytsi-block__slider .slide-textable-area__address img {
+  width: 24px;
+  height: 24px;
+}
+
+.nashi-teplytsi-block__slider .slide-textable-area__address span {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.nashi-teplytsi-block__slider .slide-image {
+  max-width: 70%;
+  height: 450px;
+  border-radius: 50px;
+}
+
+.nashi-teplytsi-block__slider .slide-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  object-fit: contain;
+}
 
 .partners__list {
   display: grid;
