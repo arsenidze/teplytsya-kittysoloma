@@ -25,6 +25,28 @@
 }
 
 .statistics-block__item span {
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 767px) {
+  .statistics-block__list {
+    row-gap: 16px;
+  }
+
+  .statistics-block__item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .statistics-block .content-block {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .statistics-block__item span {
+    font-size: 20px;
+    line-height: 20px;
+  }  
 }

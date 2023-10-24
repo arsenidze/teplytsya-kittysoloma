@@ -66,6 +66,13 @@ body {
   padding: var(--default-content-padding);
 }
 
+.content-block-heading {
+  font-size: 48px;
+  line-height: 58px;
+  padding: 0 0 calc(var(--default-content-padding) / 2)
+    var(--default-content-padding);
+}
+
 @media screen and (max-width: 767px) {
   .block-wrapper {
     margin-top: calc(var(--default-block-margin-top) / 2);
@@ -83,11 +90,10 @@ body {
     border-radius: 30px;
     padding: calc(var(--default-content-padding) / 2);
   }
-}
 
-.content-block-heading {
-  font-size: 48px;
-  line-height: 58px;
-  padding: 0 0 calc(var(--default-content-padding) / 2)
-    var(--default-content-padding);
+  .content-block-heading {
+    font-size: 40px;
+    line-height: 40px;
+    padding: 0 0 calc(var(--default-content-padding) / 4) calc(var(--default-content-padding) / 2);
+  }
 }

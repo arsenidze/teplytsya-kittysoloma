@@ -12,6 +12,10 @@
   gap: 8px;
 }
 
+.about-kittysoloma__logo img {
+  width: 100%;
+}
+
 .about-kittysoloma__textable-area {
   display: flex;
   flex-direction: column;
@@ -19,6 +23,10 @@
   max-width: 760px;
   font-size: 16px;
   line-height: 22px;
+}
+
+.about-kittysoloma__textable-area .bold {
+  font-weight: 600;
 }
 
 .about-kittysoloma__social-media {

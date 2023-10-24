@@ -26,10 +26,32 @@
   flex-direction: row;
   align-items: center;
   gap: 12px;
+  line-height: 28px;
 }
 
 .what-is-teplytsya-block__item img {
   width: 25px;
   height: 25px;
   object-fit: contain;
+}
+
+@media screen and (max-width: 767px) {
+  .what-is-teplytsya-block__list {
+    row-gap: 22px;
+  }
+
+  .what-is-teplytsya-block__item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .what-is-teplytsya-block .content-block {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .what-is-teplytsya-block__list {
+    font-size: 20px;
+  }
 }
