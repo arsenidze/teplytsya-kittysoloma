@@ -34,13 +34,18 @@
 }
 
 .how-to-organize-teplytsya-block__item h4 {
+  margin-top: 40px;
   font-size: 26px;
-  margin-top: 30px;
   font-weight: 600;
 }
 
 .how-to-organize-teplytsya-block__item p {
-  margin-top: 20px;
+  margin-top: 30px;
+}
+
+.how-to-organize-teplytsya-block__item p:first-of-type, 
+.how-to-organize-teplytsya-block__item h4 + p {
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 479px) {
