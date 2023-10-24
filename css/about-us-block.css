@@ -25,10 +25,6 @@
   line-height: 22px;
 }
 
-.about-kittysoloma__textable-area .bold {
-  font-weight: 600;
-}
-
 .about-kittysoloma__social-media {
   display: flex;
   flex-direction: row;

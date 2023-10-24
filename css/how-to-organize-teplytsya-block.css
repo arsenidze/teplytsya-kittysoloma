@@ -43,10 +43,6 @@
   margin-top: 20px;
 }
 
-.how-to-organize-teplytsya-block__item .bold {
-  font-weight: 600;
-}
-
 @media screen and (max-width: 479px) {
   .how-to-organize-teplytsya-block__item {
     font-size: 22px;
