@@ -60,6 +60,12 @@ body {
   padding: 0 var(--default-block-padding);
 }
 
+.content-block {
+  background-color: var(--main-white-color);
+  border-radius: 50px;
+  padding: var(--default-content-padding);
+}
+
 @media screen and (max-width: 767px) {
   .block-wrapper {
     margin-top: calc(var(--default-block-margin-top) / 2);
@@ -72,6 +78,11 @@ body {
     margin-top: calc(var(--default-block-margin-top) / 2);
     padding: 0 calc(var(--default-block-padding) / 4);
   }
+
+  .content-block {
+    border-radius: 30px;
+    padding: calc(var(--default-content-padding) / 2);
+  }
 }
 
 .content-block-heading {
@@ -79,10 +90,4 @@ body {
   line-height: 58px;
   padding: 0 0 calc(var(--default-content-padding) / 2)
     var(--default-content-padding);
-}
-
-.content-block {
-  background-color: var(--main-white-color);
-  border-radius: 20px;
-  padding: var(--default-content-padding);
 }

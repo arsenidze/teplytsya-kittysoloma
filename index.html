@@ -20,6 +20,16 @@
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/common.css" rel="stylesheet" />
     <link href="css/header-block.css" rel="stylesheet" />
+    <link href="css/hero-block.css" rel="stylesheet" />
+    <link href="css/introduction-block.css" rel="stylesheet" />
+    <link href="css/what-is-teplytsya-block.css" rel="stylesheet" />
+    <link href="css/statistics-block.css" rel="stylesheet" />
+    <link href="css/how-to-organize-teplytsya-block.css" rel="stylesheet" />
+    <link href="css/nashi-teplytsi-block.css" rel="stylesheet" />
+    <link href="css/partners-block.css" rel="stylesheet" />
+    <link href="css/about-us-block.css" rel="stylesheet" />
+    <link href="css/footer-block.css" rel="stylesheet" />
+
     <link href="css/collapsible.css" rel="stylesheet" />
   </head>
   <body>
@@ -35,7 +45,7 @@
         <div class="right-side">
           <div class="header__menu">
             <a href="#">Про проєкт</a>
-            <a href="#">Про нас</a>
+            <a href="#about-us">Про нас</a>
             <a href="#">Допомогти</a>
           </div>
         </div>
@@ -606,342 +616,27 @@
       </div>
     </main>
     <footer class="footer block-wrapper">
-      <div class="content-block"></div>
+      <div class="content-block">
+        <div class="left-side">
+          <div class="footer__logo">
+            <a href="#">
+              <img src="./images/teplytsya-logo.png" />
+            </a>
+          </div>
+        </div>
+        <div class="center-side">
+          <p>2023 – Соломʼянські Котики</p>
+        </div>
+        <div class="right-side">
+          <div class="footer__menu">
+            <a href="#">Про проєкт</a>
+            <a href="#about-us">Про нас</a>
+            <a href="#">Допомогти</a>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
   <script src="./js/collapsible.js"></script>
   <script src="./js/splideInit.js"></script>
 </html>
-
-<style>
-.hero-block .content-block {
-  height: 400px;
-  display: flex;
-  background-image: url(./images/hero-bg.png);
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
-}
-
-.hero-block__textable-area {
-  align-self: flex-end;
-}
-
-.hero-block__textable-area h1 {
-  font-size: 78px;
-  color: var(--main-white-color);
-}
-
-@media screen and (max-width: 480px) {
-  .hero-block__textable-area h1 {
-    font-size: 48px;
-  }
-}
-
-.hero-block__description {
-  color: var(--main-white-color);
-  margin-top: 10px;
-}
-
-.hero-block__image-area {
-  width: 400px;
-  min-width: 160px;
-  transform: translate(-30px, 50px);
-}
-
-@media screen and (max-width: 1024px) {
-  .hero-block__image-area {
-    width: 300px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .hero-block__image-area {
-    transform: translate(-10px, 50px);
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .hero-block .content-block {
-    flex-wrap: wrap;
-  }
-
-  .hero-block__image-area {
-    transform: translate(0px, 50px);
-  }
-}
-
-.hero-block__image-area img {
-  width: 100%;
-  height: 100%;
-}
-
-.introduction-block__description {
-  font-size: 24px;
-  line-height: 34px;
-}
-
-.what-is-teplytsya-block .content-block {
-  font-size: 24px;
-  line-height: 34px;
-}
-
-.what-is-teplytsya-block__description {
-  max-width: 700px;
-}
-
-.what-is-teplytsya-block__list-name {
-  margin-top: 25px;
-}
-
-.what-is-teplytsya-block__list {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  column-gap: 80px;
-  row-gap: 40px;
-}
-
-.what-is-teplytsya-block__item {
-  width: 200px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 12px;
-}
-
-.what-is-teplytsya-block__item img {
-  width: 25px;
-  height: 25px;
-  object-fit: contain;
-}
-
-.statistics-block .content-block {
-  font-size: 24px;
-  line-height: 34px;
-}
-
-.statistics-block__list {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  column-gap: 80px;
-  row-gap: 40px;
-}
-
-.statistics-block__item {
-  width: 200px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 12px;
-}
-
-.statistics-block__item img {
-  width: 50px;
-}
-
-.statistics-block__item span {
-  font-size: 20px;
-  line-height: 20px;
-}
-
-.how-to-organize-teplytsya-block__content {
-  /* display: flex;
-  flex-wrap: wrap;
-  flex-direction: row; */
-  display: grid;
-  /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
-  grid-template-columns: 1fr;
-  gap: 30px;
-}
-
-@media screen and (max-width: 780px) {
-  .how-to-organize-teplytsya-block__content {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-}
-
-.how-to-organize-teplytsya-block__content .content-item {
-  background-color: var(--main-white-color);
-  border-radius: 20px;
-  padding: 15px;
-  /* width: 400px;
-  height: 400px; */
-}
-
-.how-to-organize-teplytsya-block__content .item-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.area-item {
-  grid-column: 1 / -1;
-}
-
-.team-item {
-  grid-column: 1 / -1;
-}
-
-.how-to-organize-teplytsya-block__content h3 {
-  font-size: 22px;
-}
-
-.how-to-organize-teplytsya-block__content h4 {
-  font-size: 18px;
-  margin-top: 30px;
-}
-
-.how-to-organize-teplytsya-block__content p {
-  margin-top: 20px;
-  line-height: 20px;
-}
-
-/* .how-to-organize-teplytsya-block .content-block {
-  display: flex;
-  flex-direction: column;
-  gap: 40px
-}
-
-.how-to-organize-teplytsya-block .content-block h3 {
-  font-size: 22px;
-}
-
-.how-to-organize-teplytsya-block .content-block h4 {
-  font-size: 18px;
-  margin-top: 30px;
-}
-
-.how-to-organize-teplytsya-block .content-block p {
-  margin-top: 20px;
-} */
-
-/* .nashi-teplytsi-block .content-block {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-} */
-
-.nashi-teplytsi-block__slider .splide__slide__container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.nashi-teplytsi-block__slider .slide-heading {
-  font-size: 36px;
-  line-height: 43px;
-}
-
-.nashi-teplytsi-block__slider .slide-textable-area__address {
-  margin-top: 32px;
-  width: 250px;
-  display: flex;
-  gap: 20px
-}
-
-.nashi-teplytsi-block__slider .slide-textable-area__address img {
-  width: 24px;
-  height: 24px;
-}
-
-.nashi-teplytsi-block__slider .slide-textable-area__address span {
-  font-size: 16px;
-  line-height: 22px;
-}
-
-.nashi-teplytsi-block__slider .slide-image {
-  max-width: 70%;
-  height: 450px;
-  border-radius: 50px;
-}
-
-.nashi-teplytsi-block__slider .slide-image img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50px;
-  object-fit: contain;
-}
-
-.partners__list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 250px);
-  gap: 30px;
-  justify-content: center;
-  justify-items: center;
-}
-
-.partners__item {
-  display: flex;
-  justify-content: center;
-  width: 200px;
-  height: 80px;
-}
-
-.partners__item img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.thehumanityfunds-item img {
-  width: 70%;
-}
-
-.spivdiia-item img {
-  width: 50%;
-}
-
-.coreresponse-item img {
-  width: 65%;
-}
-
-.about-kittysoloma {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  row-gap: 30px;
-  justify-content: space-between;
-}
-
-.about-kittysoloma__logo a {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.about-kittysoloma__textable-area {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 760px;
-  font-size: 16px;
-  line-height: 22px;
-}
-
-.about-kittysoloma__social-media {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-
-.about-kittysoloma__social-media a {
-  scale: 1.2;
-  opacity: 0.5;
-}
-
-.footer {
-  max-width: var(--max-width-px);
-  margin: 50px auto;
-}
-
-.footer .content-block {
-  height: 100px;
-}
-</style>
