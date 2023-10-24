@@ -18,11 +18,28 @@
     <link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
 
     <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/header-block.css" rel="stylesheet" />
     <link href="css/collapsible.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header block-wrapper">
-      <div class="content-block"></div>
+      <div class="content-block">
+        <div class="left-side">
+          <div class="header__logo">
+            <a href="#">
+              <img src="./images/teplytsya-logo.png" />
+            </a>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="header__menu">
+            <a href="#">Про проєкт</a>
+            <a href="#">Про нас</a>
+            <a href="#">Допомогти</a>
+          </div>
+        </div>
+      </div>
     </header>
     <main class="main">
       <div class="hero-block block-wrapper">
@@ -597,73 +614,6 @@
 </html>
 
 <style>
-:root {
-  --main-bg-color: #C0E8C4;
-  --main-white-color: #ffffff;
-  --main-black-color: #000000;
-  --max-width-px: 1280px;
-  --default-block-padding: 48px;
-  --default-content-padding: 48px;
-  --default-block-margin-top: 40px;
-  --default-block-description-line-height: 24px;
-}
-
-* {
-  box-sizing: border-box;
-  font-family: 'Qanelas', sans-serif;
-  font-weight: 500;
-}
-
-a,
-a:hover,
-a:visited,
-a:link,
-a:active {
-  text-decoration: none;
-  color: inherit;
-}
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  background-color: var(--main-bg-color);
-}
-
-.header {
-  max-width: var(--max-width-px);
-  margin: 30px auto;
-}
-
-.header .content-block {
-  height: 100px;
-}
-
-.main {
-  max-width: var(--max-width-px);
-  margin: 0 auto;
-}
-
-.block-wrapper {
-  margin-top: var(--default-block-margin-top);
-  padding: 0 var(--default-block-padding);
-}
-
-.content-block-heading {
-  font-size: 48px;
-  line-height: 58px;
-  padding: 0 0 calc(var(--default-content-padding) / 2)
-    var(--default-content-padding);
-}
-
-.content-block {
-  background-color: var(--main-white-color);
-  border-radius: 20px;
-  padding: var(--default-content-padding);
-}
-
 .hero-block .content-block {
   height: 400px;
   display: flex;
