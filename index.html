@@ -43,7 +43,7 @@
           <h2>Вступ</h2>
         </div>
         <div class="content-block">
-          <p class="introduction-block__description default-content-text">
+          <p class="introduction-block__description">
             З жовтня минулого року росія вдалася до тероризму проти цивільних, атакуючи критичну інфраструктуру. 
             Упродовж опалювального сезону росіяни випустили понад 1200 ракет і дронів по ключових енергетичних об’єктах. 
             Почався блекаут. 
@@ -59,45 +59,45 @@
           <h2>Що таке Теплиця?</h2>
         </div>
         <div class="content-block">
-          <p class="what-is-teplytsya-block__description default-content-text">
+          <p class="what-is-teplytsya-block__description">
             Це Пункт Незламності здорової людини. Мало просто знести в одне
             приміщення генератор і старлінк — треба створити атмосферу та робити
             як для себе. За час існування, разом з партнерами ми відкрили 8
             Теплиць.
           </p>
-          <p class="what-is-teplytsya-block__list-name default-content-text">
+          <p class="what-is-teplytsya-block__list-name">
             В цих пунктах завжди є:
           </p>
           <div class="what-is-teplytsya-block__list">
-            <div class="what-is-teplytsya-block__item default-content-text">
+            <div class="what-is-teplytsya-block__item">
               <img src="./images/what-is-teplytsya/teplo.png" />
               <span>тепло</span>
             </div>
-            <div class="what-is-teplytsya-block__item default-content-text">
+            <div class="what-is-teplytsya-block__item">
               <img src="./images/what-is-teplytsya/voda.png" />
               <span>воду</span>
             </div>
-            <div class="what-is-teplytsya-block__item default-content-text">
+            <div class="what-is-teplytsya-block__item">
               <img src="./images/what-is-teplytsya/osvitlenya.png" />
               <span>освітлення</span>
             </div>
-            <div class="what-is-teplytsya-block__item default-content-text">
+            <div class="what-is-teplytsya-block__item">
               <img src="./images/what-is-teplytsya/jivlenya.png" />
               <span>живлення для гаджетів</span>
             </div>
-            <div class="what-is-teplytsya-block__item default-content-text">
+            <div class="what-is-teplytsya-block__item">
               <img src="./images/what-is-teplytsya/internet.png" />
               <span>інтернет</span>
             </div>
-            <div class="what-is-teplytsya-block__item default-content-text">
+            <div class="what-is-teplytsya-block__item">
               <img src="./images/what-is-teplytsya/chai.png" />
               <span>гарячий чай</span>
             </div>
-            <div class="what-is-teplytsya-block__item default-content-text">
+            <div class="what-is-teplytsya-block__item">
               <img src="./images/what-is-teplytsya/aptechka.png" />
               <span>аптечку</span>
             </div>
-            <div class="what-is-teplytsya-block__item default-content-text">
+            <div class="what-is-teplytsya-block__item">
               <img src="./images/what-is-teplytsya/obiymi.png" />
               <span>обійми котиків</span>
             </div>
@@ -109,7 +109,7 @@
           <h2>Статистика</h2>
         </div>
         <div class="content-block">
-          <p class="statistics-block__description default-content-text">
+          <p class="statistics-block__description">
             За 5 місяців роботи проєкту:
           </p>
           <div class="statistics-block__list">
@@ -539,10 +539,7 @@
                 target="_blank"
                 rel="noreferrer"
               >
-                <img class="about-kittysoloma__image" src="./images/logo.png" />
-                <div class="about-kittysoloma__image-text">
-                  СОЛОМʼЯНСЬКІ<br />КОТИКИ
-                </div>
+                <img class="about-kittysoloma__image" src="./images/kittysoloma-logo-with-text.png" />
               </a>
             </div>
             <div class="about-kittysoloma__textable-area">
@@ -633,11 +630,6 @@ body {
 
 body {
   background-color: var(--main-bg-color);
-}
-
-.default-content-text {
-  font-size: 24px;
-  line-height: 34px;
 }
 
 .header {
@@ -739,10 +731,13 @@ body {
   line-height: 34px;
 }
 
-.what-is-teplytsya-block__description {
-  max-width: 700px;
+.what-is-teplytsya-block .content-block {
   font-size: 24px;
   line-height: 34px;
+}
+
+.what-is-teplytsya-block__description {
+  max-width: 700px;
 }
 
 .what-is-teplytsya-block__list-name {
@@ -772,6 +767,11 @@ body {
   object-fit: contain;
 }
 
+.statistics-block .content-block {
+  font-size: 24px;
+  line-height: 34px;
+}
+
 .statistics-block__list {
   margin-top: 30px;
   display: flex;
@@ -795,6 +795,7 @@ body {
 
 .statistics-block__item span {
   font-size: 20px;
+  line-height: 20px;
 }
 
 .how-to-organize-teplytsya-block__content {
@@ -955,12 +956,8 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 150px;
   row-gap: 30px;
-}
-
-.about-kittysoloma__logo {
-  width: fit-content;
+  justify-content: space-between;
 }
 
 .about-kittysoloma__logo a {
@@ -969,20 +966,13 @@ body {
   gap: 8px;
 }
 
-.about-kittysoloma__image {
-  width: 48px;
-}
-
-.about-kittysoloma__image-text {
-  font-size: 14ox;
-  line-height: 1.1;
-}
-
 .about-kittysoloma__textable-area {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 750px;
+  max-width: 760px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .about-kittysoloma__social-media {
