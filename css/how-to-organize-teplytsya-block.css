@@ -48,6 +48,14 @@
   margin-top: 10px;
 }
 
+.how-to-organize-teplytsya-block__item .item-image {
+  border-radius: 20px;
+  object-fit: contain;
+  width: 100%;
+  display: block;
+  margin: 20px auto 0;
+}
+
 @media screen and (max-width: 479px) {
   .how-to-organize-teplytsya-block__item {
     font-size: 22px;
