@@ -75,14 +75,12 @@ body {
 
 @media screen and (max-width: 767px) {
   .block-wrapper {
-    margin-top: calc(var(--default-block-margin-top) / 2);
     padding: 0 calc(var(--default-block-padding) / 2);
   }
 }
 
 @media screen and (max-width: 479px) {
   .block-wrapper {
-    margin-top: calc(var(--default-block-margin-top) / 2);
     padding: 0 calc(var(--default-block-padding) / 4);
   }
 
