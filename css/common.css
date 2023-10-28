@@ -2,7 +2,7 @@
   --main-bg-color: #C0E8C4;
   --main-white-color: #ffffff;
   --main-black-color: #000000;
-  --max-width-px: 1280px;
+  --max-width-px: 1440px;
   --default-block-padding: 48px;
   --default-content-padding: 48px;
   --default-block-margin-top: 40px;
@@ -11,7 +11,7 @@
   --breakpoint-start-small: 320px;
   --breakpoint-start-medium: 480px;
   --breakpoint-start-large: 768px;
-  --breakpoint-start-xlarge: 1280px;
+  --breakpoint-start-xlarge: 1440px;
 }
 
 html, body, div, span, applet, object, iframe,
