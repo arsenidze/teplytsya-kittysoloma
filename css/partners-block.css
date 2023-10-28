@@ -1,8 +1,8 @@
 .partners__list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 250px);
+  grid-template-columns: repeat(auto-fill, 200px);
   gap: 30px;
-  justify-content: center;
+  justify-content: space-between;
   justify-items: center;
 }
 
@@ -29,4 +29,10 @@
 
 .coreresponse-item img {
   width: 65%;
+}
+
+@media screen and (max-width: 590px) {
+  .partners__list {
+    justify-content: center;
+  }
 }
