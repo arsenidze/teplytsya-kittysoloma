@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 767px) {
   .statistics-block__list {
-    row-gap: 16px;
+    row-gap: 28px;
   }
 
   .statistics-block__item {
