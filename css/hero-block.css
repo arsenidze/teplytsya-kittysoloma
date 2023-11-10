@@ -1,7 +1,7 @@
 .hero-block .content-block {
   height: min(calc(100vh - 220px), 640px);
   display: flex;
-  background-image: url(../images/hero-image-1350x900-squooshed.jpg);
+  background-image: url(../images/hero/hero-image-1350x900-squooshed.jpg);
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
@@ -23,34 +23,7 @@
   line-height: 34px;
 }
 
-/* .hero-block__image-area {
-  width: 400px;
-  min-width: 160px;
-  transform: translate(-30px, 50px);
-} */
-
-/* .hero-block__image-area img {
-  width: 100%;
-  height: 100%;
-} */
-
-/* @media screen and (max-width: 1024px) {
-  .hero-block__image-area {
-    width: 300px;
-  }
-} */
-
-/* @media screen and (max-width: 768px) {
-  .hero-block__image-area {
-    transform: translate(-10px, 50px);
-  }
-} */
-
 @media screen and (max-width: 480px) {
-  /* .hero-block .content-block {
-    flex-wrap: wrap;
-  } */
-
   .hero-block__textable-area h1 {
     font-size: 72px;
   }
@@ -59,8 +32,4 @@
     font-size: 20px;
     line-height: 22px;
   }
-
-  /* .hero-block__image-area {
-    transform: translate(0px, 50px);
-  } */
 }
