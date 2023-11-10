@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const splide = new Splide('.splide', {
     type: 'loop',
     pagination: false,
+    drag: false,
   });
   splide.mount();
 })
