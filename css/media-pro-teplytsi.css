@@ -1,6 +1,6 @@
 .media-pro-teplytsi-block .content-block {
   display: flex;
-  gap: 50px;
+  gap: 60px;
 }
 
 .media-pro-teplytsi-block__list {
@@ -10,7 +10,8 @@
   line-height: 28px;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 24px;
+  margin-top: 20px;
 }
 
 .media-pro-teplytsi-block__list li {
@@ -34,12 +35,13 @@
 
 @media screen and (max-width: 980px) {
   .media-pro-teplytsi-block .content-block {
-    gap: 0px;
+    gap: 10px;
   }
 
   .media-pro-teplytsi-block__list {
     font-size: 20px;
     line-height: 24px;
+    margin-top: 10px;
   }
 }
 
@@ -47,5 +49,9 @@
   .media-pro-teplytsi-block .content-block {
     gap: 30px;
     flex-wrap: wrap;
+  }
+
+  .media-pro-teplytsi-block__list {
+    margin-top: 0px;
   }
 }
